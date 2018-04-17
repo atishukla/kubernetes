@@ -4,11 +4,11 @@ metadata:
   name: nodehelloworld.example.com
   labels:
     app: helloworld
-  spec:
-    containers:
-      - name: nodetestapp
-        image: atishayshukla/nodetestapp
-        ports:
-          - name: nodejs-port
-            containerPort: 3000
+spec:
+  containers:
+  - name: nodetestapp
+    image: atishayshukla/nodetestapp
+    ports:
+    - name: nodejs-port
+      containerPort: 3000
       
